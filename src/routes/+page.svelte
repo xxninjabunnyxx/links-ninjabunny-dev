@@ -1,14 +1,10 @@
 <script lang="ts" >
+import SocialContainer from "$components/SocialContainer.svelte";
 export let data: { socials: Socials }
 
-$: ({ socials } = data)
+$: ({ siteConfig } = data)
 </script>
 
-
-<header>NinjaBunny</header>
-
 <div class="social-box">
-    {#each socials as social}
-        <div class="social"></div>
-    {/each}
+    <SocialContainer/>
 </div>

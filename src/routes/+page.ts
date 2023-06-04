@@ -1,5 +1,5 @@
-import socials from './socials'
+import siteConfig from '$data/siteConfig'
 
 export const load = async () => {
-    return { socials }
+    return { siteConfig }
 }
