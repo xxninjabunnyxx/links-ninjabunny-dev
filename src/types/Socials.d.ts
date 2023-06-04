@@ -1,0 +1,1 @@
+type Socials = Social[]
