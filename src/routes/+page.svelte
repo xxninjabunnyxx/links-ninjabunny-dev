@@ -6,5 +6,5 @@ $: ({ siteConfig } = data)
 </script>
 
 <div class="social-box">
-    <SocialContainer/>
+    <SocialContainer />
 </div>
