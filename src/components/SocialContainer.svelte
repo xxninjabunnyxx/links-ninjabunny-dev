@@ -6,6 +6,6 @@ RAWR
 .container {
     display: flex;
     width: 100%;
-    background-color: red;
+    border: 2px solid red; 
 }
 </style>
